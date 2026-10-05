@@ -48,11 +48,6 @@ jobs:
 
       - uses: actions/download-artifact@v4
         with:
-          name: apworld
-          path: tmp-artifacts
-
-      - uses: actions/download-artifact@v4
-        with:
           pattern: lib-*
           path: tmp-libs
 
